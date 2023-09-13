@@ -41,8 +41,7 @@ section {
 }
 
 .fa-bars {
-    display: none;
-    cursor: pointer;
+    visibility: hidden;
 }
 
 /* HOME */
@@ -426,9 +425,10 @@ footer p {
     }
 
     .fa-bars {
+        visibility: visible;
+        width: 100%;
         display: flex;
         justify-content: flex-end;
-        padding-top: 15px;
     }
     
     h1 {
